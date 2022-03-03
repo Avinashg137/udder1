@@ -28,14 +28,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yH4-XV-HgE">
+                                <rect key="frame" x="0.0" y="582" width="414" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="52g-R5-958"/>
+                                    <constraint firstAttribute="height" constant="279" id="Lgx-0Y-0R5"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2k0-gb-BzY"/>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5o8-EP-1r1"/>
                             <constraint firstItem="y6h-w0-PDJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="BBx-qx-KRa"/>
                             <constraint firstItem="9dK-ML-Jik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FYN-Zv-FUd"/>
                             <constraint firstItem="y6h-w0-PDJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IV1-xm-ZTD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9dK-ML-Jik" secondAttribute="trailing" constant="20" id="Mk9-nM-LQZ"/>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OPP-Ah-lLl"/>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QIE-3I-VVG"/>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vuc-iD-LIA"/>
+                            <constraint firstItem="yH4-XV-HgE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XmS-po-bJy"/>
                             <constraint firstItem="9dK-ML-Jik" firstAttribute="top" secondItem="y6h-w0-PDJ" secondAttribute="bottom" constant="20" id="ajQ-WH-0Xh"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y6h-w0-PDJ" secondAttribute="trailing" constant="20" id="qOk-ea-fOI"/>
                         </constraints>
@@ -43,10 +56,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="66"/>
+            <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
     </scenes>
     <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
